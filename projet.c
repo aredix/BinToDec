@@ -21,7 +21,7 @@ int main()
     scanf("%d", &valeur);
 
 
-    /* mise dans le tableau le nombre binaire */
+    /* mise dans le tableau du nombre binaire */
 
     while (i>0 )
     {
