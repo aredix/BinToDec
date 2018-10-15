@@ -18,7 +18,6 @@ int main()
     //system("cls");
 
     printf("longueur : %d\n", longueur);
-
     printf("Valeur binaire :\n");
     scanf("%d", &valeur);
 
