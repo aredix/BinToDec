@@ -9,7 +9,7 @@ int main()
     int valeur;
     int k=0;
     int resultat;
-
+    
     printf("Longueur du nombre binaire :\n");
     scanf("%d", &longueur);
     int tabBinaire[longueur];
@@ -53,6 +53,7 @@ int main()
     system("cls");
     resultat = temp;
     printf("Resulat : %d\n", resultat);
+    system("PAUSE");
 
 return 0;
 }
