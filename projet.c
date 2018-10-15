@@ -7,7 +7,6 @@ int main()
     double temp = 0;
     int longueur;
     int valeur;
-    int resultat = 0;   
     int k=0;
 
     printf("Longueur du nombre binaire :\n");
