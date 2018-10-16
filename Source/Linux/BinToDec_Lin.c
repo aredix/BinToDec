@@ -26,22 +26,13 @@ int main()
     int k=0;
     int resultat;
 
-    /* Déclaration du tableau fixe */
-
-    /*system("clear");
-    printf("Longueur du nombre binaire :\n");
-    scanf("%d", &longueur);
-    int tabBinaire[longueur];
-    int i = longueur;
-    int j = longueur;
-    system("clear");*/
-
     /* Déclaration du nombre binaire à convertir */
 
     printf("Valeur binaire :\n");
     scanf("%d", &valeur);
 
-    /* Déclaration du tableau fixe */
+    /* Déclaration du tableau dynamqiue */
+
     longueur=longueurVal(valeur);
     int tabBinaire[longueur];
     int i = longueur;
