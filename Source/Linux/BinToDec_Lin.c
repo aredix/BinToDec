@@ -55,8 +55,6 @@ int main()
         system("clear");
         resultat = temp;
         printf("Resulat : %d\n", resultat);
-
-
     }
 
 return 0;
