@@ -35,9 +35,9 @@ int main()
     while (j>0)
     {
 
-        if (tabBinaire[k]==1 || tabBinaire[k] ==0)
+        if (tabBinaire[j-1]==1 || tabBinaire[j-1] ==0)
         {
-            if (tabBinaire[k]==1)
+            if (tabBinaire[j-1]==1)
             {
                 temp = temp + pow(2, k);
             }
