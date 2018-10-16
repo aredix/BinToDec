@@ -14,7 +14,7 @@ L'argument <code>-lm</code> permet de prendre en compte la librairie math.h pour
 Sous un environnement Windows : 
 
 Vérifier que GCC est disponible sur votre machine.
-Si ce n'est pas le cas, télécharger MinGW (www.mingw.org) et déclarer le répertorie d'installation de MinGW dans vos variable d'environnement.
+Si ce n'est pas le cas, télécharger MinGW (www.mingw.org) et déclarer le répertorie d'installation de MinGW dans vos variables d'environnements.
 
 <code> gcc -lm BinToDec_Lin.c -o BinToDec_Lin.exe </code>
 
