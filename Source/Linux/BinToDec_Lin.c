@@ -14,6 +14,7 @@ int main()
     int resultat;
 
     /* Déclaration du tableau dynamique */
+
     system("clear");
     printf("Longueur du nombre binaire :\n");
     scanf("%d", &longueur);
@@ -23,6 +24,7 @@ int main()
     system("clear");
 
     /* Déclaration du nombre binaire à convertir */
+    
     printf("Valeur binaire :\n");
     scanf("%d", &valeur);
 
