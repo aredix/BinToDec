@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+/* Fonction pour calculer la longueur du nombre binaire en entrée */
+
 int longueurVal(int longueur)
 {
     int compteur=0;
