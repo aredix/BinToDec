@@ -1,7 +1,5 @@
-This file is made to easy convert binary number into a decimal number "human readable".
+Ce programme a pour but de convertir de manière rapide et simplifiée un nombre binaire d'un longueur définie en un nombre décimal qui est "human readable".
 
-It allows you to convert any length of binary number.
+Si vous trouvez un bug, faites moi en part.
 
-If you find any bugs, feel free to say it ! :) 
-
-The windows version is aborted. 
+PS : La version Windows est abandonée. Cependant, vous trouverez un README dans le dossier Source/Linux pour vous expliquer comment le compiler sous Linux et Windows.
