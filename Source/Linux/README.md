@@ -3,9 +3,9 @@
 
 Sous un environement Linux : 
 
-<code> gcc -lm BinToDec_Lin.c -o BinToDec_Lin </code>
+<code>gcc -lm BinToDec_Lin.c -o BinToDec_Lin </code>
 
-L'argument <code>-lm</code> permet de prendre en compte la librairie math.h pour la fonction <code>pow(int a, int b)</code>
+L'argument<code>-lm</code> permet de prendre en compte la librairie math.h pour la fonction <code>pow(int a, int b)</code>
 
 
 ##                Compilation sous Windows               
