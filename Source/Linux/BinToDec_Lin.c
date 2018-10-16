@@ -9,7 +9,9 @@ int main()
     int valeur;
     int k=0;
     int resultat;
-    
+
+    /* Déclaration du tableau dynamique */
+    system("clear");
     printf("Longueur du nombre binaire :\n");
     scanf("%d", &longueur);
     int tabBinaire[longueur];
@@ -17,6 +19,7 @@ int main()
     int j = longueur;
     system("clear");
 
+    /* Déclaration du nombre binaire à convertir */
     printf("Valeur binaire :\n");
     scanf("%d", &valeur);
 
@@ -45,14 +48,16 @@ int main()
         }
         else
         {
-            printf("Votre nombre n'est pas au format binaire ! ");
+            printf("Votre nombre n'est pas au format binaire ! \n");
+            break;
         }
         j--;
-    }
+        system("clear");
+        resultat = temp;
+        printf("Resulat : %d\n", resultat);
 
-    system("clear");
-    resultat = temp;
-    printf("Resulat : %d\n", resultat);
+
+    }
 
 return 0;
 }
