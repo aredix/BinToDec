@@ -5,6 +5,17 @@
 #include <stdlib.h>
 #include <math.h>
 
+int longueurVal(int longueur)
+{
+    int compteur=0;
+    if (longueur > 0)
+    {
+        longueur = longueur/10;
+        compteur++;
+    }
+    return longueur;
+}
+
 int main()
 {
     double temp = 0;
@@ -13,20 +24,26 @@ int main()
     int k=0;
     int resultat;
 
-    /* Déclaration du tableau dynamique */
+    /* Déclaration du tableau fixe */
 
-    system("clear");
+    /*system("clear");
     printf("Longueur du nombre binaire :\n");
     scanf("%d", &longueur);
     int tabBinaire[longueur];
     int i = longueur;
     int j = longueur;
-    system("clear");
+    system("clear");*/
 
     /* Déclaration du nombre binaire à convertir */
-    
+
     printf("Valeur binaire :\n");
     scanf("%d", &valeur);
+
+    /* Déclaration du tableau fixe */
+    longueur=longueurVal(valeur);
+    int tabBinaire[longueur];
+    int i = longueur;
+    int j = longueur;
 
 
     /* mise dans le tableau du nombre binaire */
