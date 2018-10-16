@@ -25,13 +25,14 @@ int main()
     int valeur;
     int k=0;
     int resultat;
+    int erreur = 0;
 
     /* Déclaration du nombre binaire à convertir */
 
     printf("Valeur binaire :\n");
     scanf("%d", &valeur);
 
-    /* Déclaration du tableau dynamqiue */
+    /* Déclaration du tableau dynamique */
 
     longueur=longueurVal(valeur);
     int tabBinaire[longueur];
@@ -40,7 +41,7 @@ int main()
 
 
     /* mise dans le tableau du nombre binaire */
-
+ 
     while (i>0 )
     {
         tabBinaire[i-1]=valeur%10;
@@ -69,13 +70,20 @@ int main()
         else
         {
             printf("Votre nombre n'est pas au format binaire ! \n");
+            erreur = 1;
             break;
         }
         j--;
+    }
+
+    /* Si le nombre n'est pas dans un format binaire alors on affiche pas le résultat */
+
+    if (erreur == 0)
+    {
         system("clear");
         resultat = temp; // converstion de la valeur de float à int
         printf("Resulat : %d\n", resultat); // Affichage du résultat de la conversion
     }
-
+    
 return 0;
 }
