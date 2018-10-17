@@ -7,15 +7,15 @@
 
 /* Fonction pour calculer la longueur du nombre binaire en entrée */
 
-int longueurVal(int longueur)
+int longueurVal(int valeur)
 {
     int compteur=0;
-    if (longueur > 0)
+    while (valeur > 0)
     {
-        longueur = longueur/10;
+        valeur = valeur/10;
         compteur++;
     }
-    return longueur;
+    return compteur;
 }
 
 int main()
@@ -69,6 +69,7 @@ int main()
 
         else
         {
+            system("clear")
             printf("Votre nombre n'est pas au format binaire ! \n");
             erreur = 1;
             break;
