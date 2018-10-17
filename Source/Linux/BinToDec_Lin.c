@@ -69,7 +69,7 @@ int main()
 
         else
         {
-            system("clear")
+            system("clear");
             printf("Votre nombre n'est pas au format binaire ! \n");
             erreur = 1;
             break;
